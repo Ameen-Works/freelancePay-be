@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 //Need dotenv to secure DBURL
 const dotenv = require("dotenv");
-dotenv.config({ path: "./DB.env" }); //fetch the environment variable from the path
+// dotenv.config({ path: "./DB.env" }); //fetch the environment variable from the path
 
 const DB_URL = process.env.DB_URL;
 
